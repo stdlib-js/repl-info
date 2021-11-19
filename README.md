@@ -20,7 +20,7 @@ limitations under the License.
 
 # Abbreviated Help
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Return abbreviated help text associated with a provided alias.
 
@@ -240,8 +240,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/repl-info/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/repl-info?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/repl-info.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/repl-info/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/

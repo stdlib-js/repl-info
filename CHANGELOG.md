@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-21)
+## Unreleased (2024-06-22)
 
 <section class="features">
 
@@ -24,6 +24,7 @@
 
 <details>
 
+-   [`211c131`](https://github.com/stdlib-js/stdlib/commit/211c131b7d2761f3627a85ab47fdb07e242cc1c9) - **docs:** update REPL namespace documentation [(#2437)](https://github.com/stdlib-js/stdlib/pull/2437) _(by stdlib-bot, Athan Reines)_
 -   [`1c27809`](https://github.com/stdlib-js/stdlib/commit/1c27809160d824ad9c4b7f21f1f36e7331df7e9d) - **docs:** update REPL namespace documentation [(#2426)](https://github.com/stdlib-js/stdlib/pull/2426) _(by stdlib-bot, Athan Reines)_
 -   [`ba4ce18`](https://github.com/stdlib-js/stdlib/commit/ba4ce188564d0207be7b780202dd4966b8dd9459) - **feat:** add `amskput` to namespace _(by Athan Reines)_
 -   [`642d473`](https://github.com/stdlib-js/stdlib/commit/642d4736d832f9dd83df75dfb63e56689e1fbb89) - **docs:** update REPL namespace documentation [(#2416)](https://github.com/stdlib-js/stdlib/pull/2416) _(by stdlib-bot, Athan Reines)_

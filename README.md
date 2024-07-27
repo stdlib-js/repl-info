@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import info from 'https://cdn.jsdelivr.net/gh/stdlib-js/repl-info@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/repl-info/tags). For example,
+
+```javascript
 import info from 'https://cdn.jsdelivr.net/gh/stdlib-js/repl-info@v0.3.0-esm/index.mjs';
 ```
 
@@ -101,7 +106,7 @@ var txt = info( 'unrecognized_alias_beep_boop_bop_bip' );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import aliases from 'https://cdn.jsdelivr.net/gh/stdlib-js/namespace-aliases@esm/index.mjs';
-import info from 'https://cdn.jsdelivr.net/gh/stdlib-js/repl-info@v0.3.0-esm/index.mjs';
+import info from 'https://cdn.jsdelivr.net/gh/stdlib-js/repl-info@esm/index.mjs';
 
 var list;
 var len;

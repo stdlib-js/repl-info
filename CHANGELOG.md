@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2939f56`](https://github.com/stdlib-js/stdlib/commit/2939f5662f4bc178fbe532579380d501ff7b1722) - add `nditerStacks` to namespace
 -   [`082324e`](https://github.com/stdlib-js/stdlib/commit/082324e5c0004e84a711debf81abebf755399f29) - add `nditerSubarrays` to namespace
 
 </section>
@@ -22,6 +23,7 @@
 
 <details>
 
+-   [`2939f56`](https://github.com/stdlib-js/stdlib/commit/2939f5662f4bc178fbe532579380d501ff7b1722) - **feat:** add `nditerStacks` to namespace _(by Athan Reines)_
 -   [`082324e`](https://github.com/stdlib-js/stdlib/commit/082324e5c0004e84a711debf81abebf755399f29) - **feat:** add `nditerSubarrays` to namespace _(by Athan Reines)_
 -   [`70eb789`](https://github.com/stdlib-js/stdlib/commit/70eb789d85da0d8470a61b28ed0a80ee1009d179) - **docs:** update REPL namespace documentation [(#2682)](https://github.com/stdlib-js/stdlib/pull/2682) _(by stdlib-bot, Philipp Burckhardt)_
 

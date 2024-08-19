@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-17)
+## Unreleased (2024-08-19)
 
 <section class="features">
 
@@ -25,6 +25,7 @@
 
 <details>
 
+-   [`cf3e438`](https://github.com/stdlib-js/stdlib/commit/cf3e438ecf31260a2ebff08f6477bb4d29e8440f) - **docs:** update REPL docs _(by Athan Reines)_
 -   [`5f8d50d`](https://github.com/stdlib-js/stdlib/commit/5f8d50df14363d06b37b9d551143fc46d90c79bd) - **docs:** update REPL docs _(by Athan Reines)_
 -   [`febd8ae`](https://github.com/stdlib-js/stdlib/commit/febd8aef423c3723ef0cd4a04099faa609a38f51) - **feat:** add `ndarraylike2ndarray` to namespace _(by Athan Reines)_
 -   [`09ffebd`](https://github.com/stdlib-js/stdlib/commit/09ffebdfb9946b7e1dd3c05f58637fa073f0a121) - **feat:** add `nditerInterleaveSubarrays` to namespace _(by Athan Reines)_

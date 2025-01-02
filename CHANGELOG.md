@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-30)
+## Unreleased (2025-01-02)
 
 <section class="features">
 
@@ -34,6 +34,7 @@
 
 <details>
 
+-   [`8dfa851`](https://github.com/stdlib-js/stdlib/commit/8dfa8515051fc7dde731cd8373b17377c7f015b8) - **docs:** update REPL namespace documentation [(#4447)](https://github.com/stdlib-js/stdlib/pull/4447) _(by stdlib-bot)_
 -   [`109c303`](https://github.com/stdlib-js/stdlib/commit/109c3034461f70d36339206cf05237230aba0902) - **docs:** update REPL namespace documentation [(#4364)](https://github.com/stdlib-js/stdlib/pull/4364) _(by stdlib-bot)_
 -   [`7d8aba0`](https://github.com/stdlib-js/stdlib/commit/7d8aba04d7513814f09d725b81c0f953ad4c3b7f) - **feat:** add ndarray APIs and float32 constants to namespace _(by Athan Reines)_
 -   [`800e80b`](https://github.com/stdlib-js/stdlib/commit/800e80b8550012d379d57c8ac7e14909a96cbc60) - **docs:** update REPL namespace documentation [(#4336)](https://github.com/stdlib-js/stdlib/pull/4336) _(by stdlib-bot, Philipp Burckhardt)_

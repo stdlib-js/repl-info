@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-23)
+## Unreleased (2025-06-24)
 
 <section class="features">
 
 ### Features
 
+-   [`d2f83a4`](https://github.com/stdlib-js/stdlib/commit/d2f83a48fa6f6dc3ce8898853e10f557ae5aad1f) - add `isStruct` and `isStructConstructorLike` to namespace
 -   [`7d8aba0`](https://github.com/stdlib-js/stdlib/commit/7d8aba04d7513814f09d725b81c0f953ad4c3b7f) - add ndarray APIs and float32 constants to namespace
 -   [`2c01b65`](https://github.com/stdlib-js/stdlib/commit/2c01b654e7fcfae9bde232c5fdda10d14f02e30e) - add `ndfilterMap` to namespace
 -   [`9ecc3d3`](https://github.com/stdlib-js/stdlib/commit/9ecc3d30b87a0d38cc7608a35024a15c920a2f29) - add `ndreject` to namespace
@@ -34,6 +35,7 @@
 
 <details>
 
+-   [`d2f83a4`](https://github.com/stdlib-js/stdlib/commit/d2f83a48fa6f6dc3ce8898853e10f557ae5aad1f) - **feat:** add `isStruct` and `isStructConstructorLike` to namespace _(by Athan Reines)_
 -   [`28f9979`](https://github.com/stdlib-js/stdlib/commit/28f99791e07b4d5bc48b1d6ca42662208211cd8b) - **docs:** update REPL namespace documentation [(#7457)](https://github.com/stdlib-js/stdlib/pull/7457) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`05e4da8`](https://github.com/stdlib-js/stdlib/commit/05e4da8247ce01c4b57c33b841094659f6823e36) - **docs:** update REPL namespace documentation [(#7432)](https://github.com/stdlib-js/stdlib/pull/7432) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`5f5177b`](https://github.com/stdlib-js/stdlib/commit/5f5177bb8f8ae117b58bd0959f1c51b6939c4c78) - **docs:** update REPL namespace documentation [(#7353)](https://github.com/stdlib-js/stdlib/pull/7353) _(by stdlib-bot)_

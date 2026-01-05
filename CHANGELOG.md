@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-20)
+## Unreleased (2026-01-05)
 
 <section class="features">
 
@@ -35,6 +35,7 @@
 
 <details>
 
+-   [`35ce703`](https://github.com/stdlib-js/stdlib/commit/35ce70320886dd8f426225b2bd300114e7ea4c7d) - **docs:** remove duplicate words in documentation [(#9555)](https://github.com/stdlib-js/stdlib/pull/9555) _(by Shivam Mittal)_
 -   [`1af75ce`](https://github.com/stdlib-js/stdlib/commit/1af75ce8ffaff0ad623426831eea9b12e00db694) - **docs:** update REPL namespace documentation [(#9269)](https://github.com/stdlib-js/stdlib/pull/9269) _(by stdlib-bot)_
 -   [`7f83de8`](https://github.com/stdlib-js/stdlib/commit/7f83de89a15457eff3bde178383c587b75854dda) - **docs:** update REPL namespace documentation [(#9115)](https://github.com/stdlib-js/stdlib/pull/9115) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`db475c9`](https://github.com/stdlib-js/stdlib/commit/db475c9e82f415b00c89fe590faa66d732415745) - **docs:** update REPL namespace documentation [(#8123)](https://github.com/stdlib-js/stdlib/pull/8123) _(by stdlib-bot)_
@@ -169,10 +170,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Philipp Burckhardt
+-   Shivam Mittal
 
 </section>
 

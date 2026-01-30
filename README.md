@@ -45,25 +45,103 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
 
+```bash
+npm install @stdlib/repl-info
+```
 
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
+
+<section class="usage">
+
+## Usage
+
+```javascript
+var info = require( '@stdlib/repl-info' );
+```
+
+#### info( alias )
+
+Returns abbreviated help text for a provided alias.
+
+```javascript
+var txt = info( 'base.sin' );
+// returns <string>
+```
+
+If provided an unrecognized `alias`, the function returns `null`.
+
+```javascript
+var txt = info( 'unrecognized_alias_beep_boop_bop_bip' );
+// returns null
+```
+
+</section>
+
+<!-- /.usage -->
 
 <!-- Package usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
+<section class="notes">
 
+</section>
+
+<!-- /.notes -->
 
 <!-- Package usage examples. -->
 
+<section class="examples">
 
+## Examples
+
+<!-- TODO: better example -->
+
+<!-- eslint no-undef: "error" -->
+
+```javascript
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
+var aliases = require( '@stdlib/namespace-aliases' );
+var info = require( '@stdlib/repl-info' );
+
+var list;
+var len;
+var idx;
+var i;
+
+list = aliases();
+len = list.length;
+
+for ( i = 0; i < 100; i++ ) {
+    idx = discreteUniform( 0, len-1 );
+    console.log( info( list[ idx ] ) );
+}
+```
+
+</section>
+
+<!-- /.examples -->
 
 <!-- Section for describing a command-line interface. -->
 
-
+* * *
 
 <section class="cli">
 
-
+## CLI
 
 <section class="installation">
 
@@ -81,7 +159,7 @@ npm install -g @stdlib/repl-info-cli
 
 <section class="usage">
 
-## Usage
+### Usage
 
 ```text
 Usage: stdlib-alias-info [options] <alias>
@@ -108,7 +186,7 @@ Options:
 
 <section class="examples">
 
-## Examples
+### Examples
 
 ```bash
 $ stdlib-alias-info 'base.sin'
@@ -142,11 +220,6 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 <section class="related">
 
-## See Also
-
--   <span class="package-name">[`@stdlib/repl-info`][@stdlib/repl-info]</span><span class="delimiter">: </span><span class="description">return abbreviated help text associated with a provided alias.</span>
-
-
 </section>
 
 <!-- /.related -->
@@ -164,7 +237,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-### Community
+#### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -182,11 +255,11 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/repl-info-cli.svg
-[npm-url]: https://npmjs.org/package/@stdlib/repl-info-cli
+[npm-image]: http://img.shields.io/npm/v/@stdlib/repl-info.svg
+[npm-url]: https://npmjs.org/package/@stdlib/repl-info
 
-[test-image]: https://github.com/stdlib-js/repl-info/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/repl-info/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/repl-info/actions/workflows/test.yml/badge.svg?branch=v0.4.0
+[test-url]: https://github.com/stdlib-js/repl-info/actions/workflows/test.yml?query=branch:v0.4.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/repl-info/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/repl-info?branch=main

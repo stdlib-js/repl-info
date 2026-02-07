@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import info from 'https://cdn.jsdelivr.net/gh/stdlib-js/repl-info@deno/mod.js';
+import info from 'https://cdn.jsdelivr.net/gh/stdlib-js/repl-info@v0.4.1-deno/mod.js';
 ```
 
 #### info( alias )
@@ -96,7 +96,7 @@ var txt = info( 'unrecognized_alias_beep_boop_bop_bip' );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
 import aliases from 'https://cdn.jsdelivr.net/gh/stdlib-js/namespace-aliases@deno/mod.js';
-import info from 'https://cdn.jsdelivr.net/gh/stdlib-js/repl-info@deno/mod.js';
+import info from 'https://cdn.jsdelivr.net/gh/stdlib-js/repl-info@v0.4.1-deno/mod.js';
 
 var list;
 var len;

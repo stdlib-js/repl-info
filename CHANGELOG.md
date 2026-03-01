@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-28)
+## Unreleased (2026-03-01)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`afc394d`](https://github.com/stdlib-js/stdlib/commit/afc394d4872cb71e63ab6f67402ddb7de3fd697f) - **docs:** update REPL namespace documentation [(#10585)](https://github.com/stdlib-js/stdlib/pull/10585) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`cde3eaa`](https://github.com/stdlib-js/stdlib/commit/cde3eaa0ce2ef0013f69cd458a3ae17b1ed57e56) - **docs:** update REPL namespace documentation [(#10559)](https://github.com/stdlib-js/stdlib/pull/10559) _(by stdlib-bot)_
 
 </details>
@@ -19,6 +20,18 @@
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 

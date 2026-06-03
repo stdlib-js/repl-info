@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`dfee746`](https://github.com/stdlib-js/stdlib/commit/dfee7462421d4117f86f91f175ff2391fb35012f) - add `Uint64` to namespace
 -   [`73eceba`](https://github.com/stdlib-js/stdlib/commit/73ecebacddec71de84b2bbf7200c18c6a052be72) - add `truesLike` to namespace
 -   [`84009d5`](https://github.com/stdlib-js/stdlib/commit/84009d55a5b7bada4eaec2c91275ff4c2983eb4f) - add `trues` to namespace
 -   [`67382e1`](https://github.com/stdlib-js/stdlib/commit/67382e1fa3073d0cd5bfdba88e9ae7b61fe61b89) - add top-level `random.*` symbols to namespace
@@ -26,6 +27,7 @@
 
 <details>
 
+-   [`dfee746`](https://github.com/stdlib-js/stdlib/commit/dfee7462421d4117f86f91f175ff2391fb35012f) - **feat:** add `Uint64` to namespace _(by Athan Reines)_
 -   [`25447e0`](https://github.com/stdlib-js/stdlib/commit/25447e07b6674c21caa6d661064be6e692e7cff9) - **docs:** update REPL namespace documentation [(#12479)](https://github.com/stdlib-js/stdlib/pull/12479) _(by stdlib-bot)_
 -   [`8777ff6`](https://github.com/stdlib-js/stdlib/commit/8777ff69551cc48a679827ae527efcbf634afa89) - **docs:** update REPL namespace documentation [(#12327)](https://github.com/stdlib-js/stdlib/pull/12327) _(by stdlib-bot)_
 -   [`f5ac264`](https://github.com/stdlib-js/stdlib/commit/f5ac2644a02f17eae509a8b79db6fb01533ba135) - **docs:** update REPL namespace documentation [(#12198)](https://github.com/stdlib-js/stdlib/pull/12198) _(by stdlib-bot)_

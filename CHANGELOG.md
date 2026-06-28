@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-26)
+## Unreleased (2026-06-28)
 
 <section class="features">
 
 ### Features
 
+-   [`313ecef`](https://github.com/stdlib-js/stdlib/commit/313ecef83a5956ac3fd12b24a68085b56747740d) - update namespace
 -   [`dfee746`](https://github.com/stdlib-js/stdlib/commit/dfee7462421d4117f86f91f175ff2391fb35012f) - add `Uint64` to namespace
 -   [`73eceba`](https://github.com/stdlib-js/stdlib/commit/73ecebacddec71de84b2bbf7200c18c6a052be72) - add `truesLike` to namespace
 -   [`84009d5`](https://github.com/stdlib-js/stdlib/commit/84009d55a5b7bada4eaec2c91275ff4c2983eb4f) - add `trues` to namespace
@@ -27,6 +28,7 @@
 
 <details>
 
+-   [`313ecef`](https://github.com/stdlib-js/stdlib/commit/313ecef83a5956ac3fd12b24a68085b56747740d) - **feat:** update namespace _(by Athan Reines)_
 -   [`5715620`](https://github.com/stdlib-js/stdlib/commit/5715620b75c53fe6a0f23fc4472eda3272937ab8) - **docs:** update REPL namespace documentation [(#13144)](https://github.com/stdlib-js/stdlib/pull/13144) _(by stdlib-bot)_
 -   [`b90c43d`](https://github.com/stdlib-js/stdlib/commit/b90c43daff5a2a506e0ec64220a26e70618b7e60) - **docs:** update REPL namespace documentation [(#13076)](https://github.com/stdlib-js/stdlib/pull/13076) _(by stdlib-bot)_
 -   [`b2adbd2`](https://github.com/stdlib-js/stdlib/commit/b2adbd26ec98c65edb138929e4bb20a5c7dd5d2b) - **docs:** update REPL namespace documentation [(#12930)](https://github.com/stdlib-js/stdlib/pull/12930) _(by stdlib-bot)_
